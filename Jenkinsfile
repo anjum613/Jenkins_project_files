@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo "Fetching source code from: ${env.DIRECTORY_PATH}"
                 echo "Compiling the code and generating any necessary artefacts."
-                sh 'ls -l' // List files to verify checkout
+                //sh 'ls -l' // List files to verify checkout
             }
         }
 
